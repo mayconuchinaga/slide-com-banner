@@ -1,0 +1,326 @@
+/* importando fontes do goggle fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+/* criando classe para <img> */
+hr{
+
+    width: 100%;
+    height: 5px;
+background-color: rgb(250, 138, 0);
+}
+
+.rodape{
+
+    border: 10px solid #f48a8a;
+    text-align:center;
+    background-color: #ffffff;
+    border-bottom: #ff0000;
+    font-family: Kalnia Glaze;
+
+}
+
+/* importando a fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+
+/* CSS da pagina quem sou */
+.logo{
+    background: left / cover url(/img/Design-sem-nome.png);
+    background-position-x:center;
+    display: flex;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    font-size: 30px;
+    color: bisque;
+    text-shadow: #000 2px 2px 0.2rem;
+    margin-bottom: 30px;
+    font-family: "Playwrite BE WAL", cursive;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+
+/* CSS do fã clube */
+.faclube{
+    background: left / cover url(/img/aespa.jpg);
+    background-position-x:center;
+    display: flex;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(117, 98, 144);
+    text-shadow: #000 2px 2px 0.2rem;
+    margin-bottom: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: dimgrey;
+
+}
+
+/* CSS galeria */
+.galeria{
+    background: left / cover url(/img/ninnin.jfif);
+    background-position-x:center;
+    display: flex;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(73, 76, 108);
+    text-shadow: #000 2px 2px 0.2rem;
+    margin-bottom: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* mudando a propriedade da tag <a> */
+/* a:link{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 119, 255);
+    text-decoration: none;
+}
+a:active{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+ */
+ .gigi{
+    width: 490px;
+    height: 630px;
+    margin-left: 31%;
+ }
+
+.vinho {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+
+    input, button{
+        margin: 5px;
+    }
+}
+
+*{
+    margin: 10px;
+}
+body{
+    background: scroll;
+    background-color: white;
+}
+
+h1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #5a81fe;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li a{
+    color: #5a81fe;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #ffff
+}
+nav {
+    background-color: #5a81fe;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative; /* Necessário para o posicionamento do dropdown */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block; /* Torna o link clicável em toda a área */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #65aaf9;
+}
+
+/* Estilo do dropdown */
+nav ul li .dropdown-content {
+    display: none; /* Esconde o submenu inicialmente */
+    position: absolute; /* Posiciona o submenu em relação ao item pai */
+    background-color: #51bcff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; /* Garante que o submenu fique acima de outros elementos */
+    min-width: 160px;
+    padding: 0;
+}
+
+nav ul li .dropdown-content li {
+    margin: 0;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 15px;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #4742ec; /* Cor de fundo ao passar o mouse sobre o submenu */
+}
+
+/* Exibe o submenu ao passar o mouse sobre o item principal */
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*estilo geral do footer*/
+
+footer {
+    background-color: #5a81fe;
+    color: white;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section{
+    flex-basis: 23%; /*faz com que as seções ocupem 23% da largura, com espaço para margens*/
+    margin-bottom: 20px;
+}
+
+.footer-section h4{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffffff
+}
+
+.footer-section p, .footer-section ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.footer-section ul{
+    list-style-type: none;
+}
+
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+.footer-section ul li a:hover{
+    color: #575757;
+}
+
+.social-link a{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-link a:hover{
+    color: #ffffff;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #4444;
+    font-size: 14px;
+}
+
+.footer-bottom p{
+    text-align: center;
+}
+
+.slider{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides{
+    display: flex;
+    width: 100%;
+    animation: slideAnimation 9s infinite;
+}
+
+.slide{
+    width: 100%;
+    flex-shrink: 0;
+}
+
+@keyframes slideAnimation {
+    0%{transform: translateX(0);}
+    33%{transform: translateX(-100%);}
+    66%{transform: translateX(-200%);}
+    100%{transform: translateX(0);}
+}
+
+.slide img{
+    width: 100%;
+    display: block;
+}
